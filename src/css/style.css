@@ -1,0 +1,41 @@
+/* Box styling */
+.styled-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  width: 10vh;
+  background-color: rgb(196, 74, 74);
+  border: 3px solid white;
+  padding: 30px;
+  margin: 30px;
+  border-radius: 15px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
+}
+/* Center header and footer */
+.center-header {
+  display: flex;
+  justify-content: center;
+}
+/* Center content in the body */
+.center-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/* Body background */
+body {
+  background: radial-gradient(rgb(235, 5, 5), rgb(228, 169, 169));
+}
+/* Header styling */
+h1 {
+  color: rgb(255, 255, 255);
+  font-family: cursive;
+}
+/* Paragraph styling */
+p {
+  color: rgb(255, 255, 255);
+  font-size: larger;
+  font-family: monospace;
+}
