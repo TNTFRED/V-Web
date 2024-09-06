@@ -1,10 +1,9 @@
-/* Box styling */
 .styled-box {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 10vh;
-  width: 10vh;
+  height: 70vh;
+  width: 80vh;
   background-color: rgb(196, 74, 74);
   border: 3px solid white;
   padding: 30px;
@@ -12,12 +11,10 @@
   border-radius: 15px;
   box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
 }
-/* Center header and footer */
 .center-header {
   display: flex;
   justify-content: center;
 }
-/* Center content in the body */
 .center-body {
   display: flex;
   justify-content: center;
@@ -47,15 +44,12 @@
 }
 
 
-
-/* Header styling */
 h1 {
   color: rgb(255, 255, 255);
   font-size: 300%;
   font-family: cursive;
   z-index: 1;
 }
-/* Paragraph styling */
 p {
   color: rgb(255, 255, 255);
   font-size: larger;
@@ -69,7 +63,6 @@ body {
   background-repeat: no-repeat;
   z-index: -1;
 }
-
 body ::before{
   content: "";
   position: relative;
