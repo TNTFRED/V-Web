@@ -85,6 +85,49 @@
   animation-iteration-count: infinite;
 }
 
+@media (max-width: 600px) {
+  .item {
+    width: 55vw;
+    height: 70vh;
+  } 
+
+  .item1{
+    animation-delay: calc(var(--animation-delay-media) / 9 * (9 - 1) * -1);
+  }
+
+  .item2{
+    animation-delay: calc(var(--animation-delay-media) / 9 * (9 - 1) * -1);
+  }
+
+  .item3{
+    animation-delay: calc(var(--animation-delay-media) / 9 * (9 - 1) * -1);
+  }
+
+  .item4{
+    animation-delay: calc(var(--animation-delay-media) / 9 * (9 - 1) * -1);
+  }
+
+  .item5{
+    animation-delay: calc(var(--animation-delay-media) / 9 * (9 - 1) * -1);
+  }
+
+  .item6{
+    animation-delay: calc(var(--animation-delay-media) / 9 * (9 - 1) * -1);
+  }
+
+  .item7{
+    animation-delay: calc(var(--animation-delay-media) / 9 * (9 - 1) * -1);
+  }
+
+  .item8{
+    animation-delay: calc(var(--animation-delay-media) / 9 * (9 - 1) * -1);
+  }
+
+  .item9{
+    animation-delay: calc(var(--animation-delay-media) / 9 * (9 - 1) * -1);
+  }
+}
+
 .item1{
   animation-delay: calc(var(--animation-delay) / 9 * (9 - 1) * -1);
   background-image: url('../images/ElevatorGame.jpg');
@@ -128,49 +171,6 @@
 .item9{
   animation-delay: calc(var(--animation-delay) / 9 * (9 - 9) * -1);
   background-image: url('../images/ReasonableDoubt.jpg');
-}
-
-@media (max-width: 600px) {
-  .item {
-    width: 55vw;
-    height: 70vh;
-  } 
-
-  .item1{
-    animation-delay: calc(var(--animation-delay-media) / 9 * (9 - 1) * -1);
-  }
-
-  .item2{
-    animation-delay: calc(var(--animation-delay-media) / 9 * (9 - 1) * -1);
-  }
-
-  .item3{
-    animation-delay: calc(var(--animation-delay-media) / 9 * (9 - 1) * -1);
-  }
-
-  .item4{
-    animation-delay: calc(var(--animation-delay-media) / 9 * (9 - 1) * -1);
-  }
-
-  .item5{
-    animation-delay: calc(var(--animation-delay-media) / 9 * (9 - 1) * -1);
-  }
-
-  .item6{
-    animation-delay: calc(var(--animation-delay-media) / 9 * (9 - 1) * -1);
-  }
-
-  .item7{
-    animation-delay: calc(var(--animation-delay-media) / 9 * (9 - 1) * -1);
-  }
-
-  .item8{
-    animation-delay: calc(var(--animation-delay-media) / 9 * (9 - 1) * -1);
-  }
-
-  .item9{
-    animation-delay: calc(var(--animation-delay-media) / 9 * (9 - 1) * -1);
-  }
 }
 
 * {
