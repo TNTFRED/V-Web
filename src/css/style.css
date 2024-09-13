@@ -86,7 +86,7 @@
 
 .item1{
   animation-delay: calc(var(--animation-delay) / 9 * (9 - 1) * -1);
-  background-image: url('../images/ElevatorGame.jpg');
+  background-image: url('/src/images/ElevatorGame.jpg');
 }
 
 .item2{
