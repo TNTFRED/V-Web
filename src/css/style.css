@@ -4,8 +4,8 @@
   --white-color: rgb(255, 255, 255);
   --link-color: rgb(255, 255, 255);
   --link-hover-color: rgb(255, 125, 125);
-  --animation-time: 30s;
-  --animation-delay: 30s;
+  --animation-time: 60s;
+  --animation-delay: 60s;
 }
 
 .center {
@@ -53,7 +53,6 @@
 }
 
 .wrapper {
-  display: flex;
   width: 90%;
   max-width: 1536px;
   margin-inline: auto;
@@ -62,15 +61,21 @@
   margin-top: 25vh;
   margin-bottom: 20vh;
   overflow: hidden;
+  mask-image: linear-gradient(
+    to right,
+    rgba(0,0,0,0),
+    rgba(0,0,0,1) 20%,
+    rgba(0,0,0,1) 80%,
+    rgba(0,0,0,0) );
 }
 
 .item {
-  width: 10vh;
-  height: 20vh;
+  width: 20vh;
+  height: 40vh;
   background-color: rgb(0, 0, 0);
   border-radius: 6px; 
   position: absolute;
-  left: 100%;
+  left: max(calc(200px * 9), 100%);
   animation-name: scrollleft;
   animation-duration: var(--animation-time);
   animation-timing-function: linear;
@@ -78,27 +83,39 @@
 }
 
 .item1{
-  animation-delay: calc(var(--animation-delay) / 6 * (6 - 1) * -1);
+  animation-delay: calc(var(--animation-delay) / 9 * (9 - 1) * -1);
 }
 
 .item2{
-  animation-delay: calc(var(--animation-delay) / 6 * (6 - 2) * -1);
+  animation-delay: calc(var(--animation-delay) / 9 * (9 - 2) * -1);
 }
 
 .item3{
-  animation-delay: calc(var(--animation-delay) / 6 * (6 - 3) * -1);
+  animation-delay: calc(var(--animation-delay) / 9 * (9 - 3) * -1);
 }
 
 .item4{
-  animation-delay: calc(var(--animation-delay) / 6 * (6 - 4) * -1);
+  animation-delay: calc(var(--animation-delay) / 9 * (9 - 4) * -1);
 }
 
 .item5{
-  animation-delay: calc(var(--animation-delay) / 6 * (6 - 5) * -1);
+  animation-delay: calc(var(--animation-delay) / 9 * (9 - 5) * -1);
 }
 
 .item6{
-  animation-delay: calc(var(--animation-delay) / 6 * (6 - 6) * -1);
+  animation-delay: calc(var(--animation-delay) / 9 * (9 - 6) * -1);
+}
+
+.item7{
+  animation-delay: calc(var(--animation-delay) / 9 * (9 - 7) * -1);
+}
+
+.item8{
+  animation-delay: calc(var(--animation-delay) / 9 * (9 - 8) * -1);
+}
+
+.item9{
+  animation-delay: calc(var(--animation-delay) / 9 * (9 - 9) * -1);
 }
 
 * {
