@@ -89,6 +89,42 @@
     width: 55vw;
     height: 70vh;
   } 
+
+  .item1{
+    --animation-delay: 90;
+  }
+
+  .item2{
+    --animation-delay: 90;
+  }
+
+  .item3{
+    --animation-delay: 90;
+  }
+
+  .item4{
+    --animation-delay: 90;
+  }
+
+  .item5{
+    --animation-delay: 90;
+  }
+
+  .item6{
+    --animation-delay: 90;
+  }
+
+  .item7{
+    --animation-delay: 90;
+  }
+
+  .item8{
+    --animation-delay: 90;
+  }
+
+  .item9{
+    --animation-delay: 90;
+  }
 }
 
 .item1{
