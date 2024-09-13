@@ -161,7 +161,7 @@ body {
 main{
   flex: 1;
 }
-/* Navbar list and links */
+
 ul {
   list-style-type: none;
   display: flex;
