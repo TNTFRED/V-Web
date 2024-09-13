@@ -147,7 +147,7 @@ main{
 ul {
   list-style-type: none;
   display: flex;
-  gap: 20px;
+  gap: 5px;
 }
 
 ul li a {
@@ -164,7 +164,7 @@ ul li a:hover {
 
 h1 {
   color: var(--white-color);
-  font-size: 3em;
+  font-size: 3vh;
   font-family: cursive;
 }
 
