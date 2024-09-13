@@ -32,7 +32,7 @@
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  width: 100%;
+  width: max(5vh,100%);
   top: 0;
   left: 0;
   z-index: 1000;
