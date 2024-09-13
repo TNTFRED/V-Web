@@ -70,8 +70,8 @@
 }
 
 .item {
-  width: min(200px, 22vw);
-  height: min(400px, 42vh);
+  width: clamp(200px, 22vw, 210px);
+  height: clamp(200px, 42vh, 400px);
   background-color: rgb(0, 0, 0);
   background-position: center;
   background-size: cover;
